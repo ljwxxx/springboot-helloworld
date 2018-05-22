@@ -1,7 +1,7 @@
 version: "0.1.0" 
 pre_ci_boot: 
-    image: maven:3.5.3-jdk-8
-    tag: "latest"
+    image: maven
+    tag: "3.5.3-jdk-8"
 ci:
     - pwd
     - mvn clean

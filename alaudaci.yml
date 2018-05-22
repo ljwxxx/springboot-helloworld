@@ -1,6 +1,6 @@
 version: "0.1.0" 
 pre_ci_boot: 
-    image: 10.20.0.6:5000/oracle-java8
+    image: maven:3.5.3-jdk-8
     tag: "latest"
 ci:
     - pwd

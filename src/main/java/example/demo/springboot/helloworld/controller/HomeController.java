@@ -9,7 +9,7 @@ public class HomeController {
     @RequestMapping("/")
     String home() {
         //from Test CI/CD
-        String msg = "Hello World! 20190518";
+        String msg = "Hello World! 20190519";
         System.out.println(msg);
         return msg;
     }
